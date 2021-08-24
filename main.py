@@ -2,7 +2,8 @@ import statistics
 
 
 def new_func_2():
-    pass
+    return 1 + 1
+
 
 def new_func():
     pass
