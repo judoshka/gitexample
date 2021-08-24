@@ -1,5 +1,10 @@
 import statistics
 
+
+def new_func():
+    pass
+
+
 def err(data):
     mean = statistics.mean(data)
     res = 0
@@ -7,6 +12,7 @@ def err(data):
         res += abs(i-mean)
     res = res / mean / len(data) * 100
     return res
+
 
 if __name__ == '__main__':
     values = [120, 95, 90, 85, 85]
